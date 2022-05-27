@@ -1,11 +1,11 @@
-module github.com/rwxrob/bonzai-example
+module github.com/feinersaft/bonzai-init
 
 go 1.18
 
 require (
 	github.com/rwxrob/bonzai v0.14.1
 	github.com/rwxrob/compfile v0.1.12
-	github.com/rwxrob/conf v0.7.0
+	github.com/rwxrob/conf v0.8.0
 	github.com/rwxrob/config v0.4.3
 	github.com/rwxrob/help v0.5.0
 	github.com/rwxrob/vars v0.4.2
@@ -25,19 +25,19 @@ require (
 	github.com/rwxrob/compcmd v0.3.0 // indirect
 	github.com/rwxrob/fn v0.3.3 // indirect
 	github.com/rwxrob/fs v0.5.2 // indirect
-	github.com/rwxrob/scan v0.8.0 // indirect
+	github.com/rwxrob/scan v0.9.0 // indirect
 	github.com/rwxrob/structs v0.6.0 // indirect
 	github.com/rwxrob/term v0.2.7 // indirect
-	github.com/rwxrob/to v0.6.0 // indirect
-	github.com/rwxrob/yq v0.2.4 // indirect
+	github.com/rwxrob/to v0.7.0 // indirect
+	github.com/rwxrob/yq v0.3.0 // indirect
 	github.com/timtadh/data-structures v0.5.3 // indirect
 	github.com/timtadh/lexmachine v0.2.2 // indirect
-	golang.org/x/crypto v0.0.0-20220427172511-eb4f295cb31f // indirect
-	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 // indirect
-	golang.org/x/sys v0.0.0-20220429233432-b5fbb4746d32 // indirect
-	golang.org/x/term v0.0.0-20220411215600-e5f449aeb171 // indirect
+	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
+	golang.org/x/net v0.0.0-20220526153639-5463443f8c37 // indirect
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
+	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/xerrors v0.0.0-20220411194840-2f41105eb62f // indirect
+	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )

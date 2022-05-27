@@ -1,4 +1,4 @@
-// Copyright 2022 bonzai-example Authors
+// Copyright 2022 Christopher Schmeer
 // SPDX-License-Identifier: Apache-2.0
 
 // Package example provides the Bonzai command branch of the same name.
@@ -37,8 +37,8 @@ var Cmd = &Z.Cmd{
 	Copyright: `Copyright 2021 Robert S Muhlestein`,
 	License:   `Apache-2.0`,
 	Site:      `rwxrob.tv`,
-	Source:    `git@github.com:rwxrob/bonzai-example.git`,
-	Issues:    `github.com/rwxrob/bonzai-example/issues`,
+	Source:    `git@github.com/feinersaft/bonzai-init:git`,
+	Issues:    `github.com/feinersaft/bonzai-init/issues`,
 
 	// Composite commands, local and external, all have their own names
 	// that are added to the command tree depending on where they are
@@ -227,7 +227,7 @@ var fileCmd = &Z.Cmd{
 // multiple ways:
 //
 // * As a command branch in a composite monolith or multicall
-// * As a standalone command (see "bonzai-example" directory)
+// * As a standalone command (see "bonzai-init" directory)
 // * As a high-level library unrelated to Bonzai at all (see "pkg")
 
 // private leaf

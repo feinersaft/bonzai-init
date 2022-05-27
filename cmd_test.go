@@ -1,4 +1,4 @@
-// Copyright 2022 bonzai-example Authors
+// Copyright 2022 Christopher Schmeer
 // SPDX-License-Identifier: Apache-2.0
 
 package example
@@ -17,7 +17,7 @@ import (
 // testing using the standalone executable or a composite command
 // executable must always be done. Also never forget to do deployment
 // testing by getting on a regular system and installing with "go
-// install github.com/rwxrob/bonzai-example@latest" to ensure you have
+// install github.com/feinersaft/bonzai-init@latest" to ensure you have
 // no errors with your versions, caching server, or dependencies.
 
 func TestBarCmd(t *testing.T) {

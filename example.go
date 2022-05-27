@@ -1,4 +1,4 @@
-// Copyright 2022 bonzai-example Authors
+// Copyright 2022 Christopher Schmeer
 // SPDX-License-Identifier: Apache-2.0
 
 package example
